@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -752,7 +751,6 @@
 <!-- Main JS File -->
 <script src="assets/js/main.js"></script>
 <script>
-  const apiKey = "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"; // Tu API key Groq
 
   function openChat() {
     document.getElementById("chat-box").style.display = "flex";
