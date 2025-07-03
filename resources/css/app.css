@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .glassmorphism {
+        @apply bg-white/10 backdrop-blur-md border border-white/20;
+    }
+    .gradient-bg {
+        @apply bg-gradient-to-br from-blue-500 to-purple-600;
+    }
+}
+
+/* Opcional: personalizaciones extra */
+@layer utilities {
+    .scroll-smooth {
+        @apply scroll-smooth;
+    }
+}

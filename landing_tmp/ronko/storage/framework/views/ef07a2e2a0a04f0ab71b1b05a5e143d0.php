@@ -1,0 +1,1 @@
+<?php /**PATH D:\LARAVEL\ronko\resources\views/components/layouts/app.blade.php ENDPATH**/ ?>
